@@ -1,0 +1,7 @@
+{
+  "name": "simplr",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
