@@ -1,33 +1,58 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>dashboard</ion-title>
-  </ion-toolbar>
-</ion-header>
-
 <ion-content [fullscreen]="true">
-  <div>Dashboard</div>
+  <h5>Dashboard</h5>
+
   <ion-grid>
     <ion-row>
-   
       <ion-col>
         <div>Simply complete your profile:</div>
+        <div class="chart">
+          <small>Profile to</small>
+          <h1>34%</h1>
+          <small>completed</small>
+        </div>
+      
       </ion-col>
+
       <ion-col>
        <div>
         <div>My profile data </div>
         <div>Data service</div>
        </div>
+
        <ion-card>
-        <ion-card-header>
-          <ion-card-title>Card Title</ion-card-title>
-          <ion-card-subtitle>Card Subtitle</ion-card-subtitle>
-        </ion-card-header>
-      
-        <ion-card-content>
-          Here's a small text description for the card content. Nothing more, nothing less.
-        </ion-card-content>
-      </ion-card>
+          <ion-card-header>
+            <ion-card-title>Your profile data consists of:</ion-card-title>
+          </ion-card-header>
+        
+          <ion-card-content>
+            <ion-list>  
+              <ion-item>  
+                <ion-icon name ="checkmark-circle-outline"></ion-icon>
+                Your first name + last name 
+              </ion-item>         
+              <ion-item>  
+                <ion-icon name ="checkmark-circle-outline" ></ion-icon>
+                Your date of birth  
+              </ion-item>  
+              <ion-item>  
+                <ion-icon name ="checkmark-circle-outline" ></ion-icon>
+                Current email address
+              </ion-item>  
+              <ion-item>  
+                <ion-icon name ="checkmark-circle-outline"></ion-icon>
+                Your mobile number
+              </ion-item>  
+              <ion-item>  
+                <ion-icon name ="checkmark-circle-outline" size="large"></ion-icon> 
+                Your main residence (street, zip code, place of residence) 
+              </ion-item> 
+              <ion-button shape="round" >Complete your profile!</ion-button>
+            </ion-list> 
+          </ion-card-content>
+      </ion-card>  
+    
       </ion-col>
+
       <ion-col>
         <ion-card>
           <img alt="Silhouette of mountains" src="https://ionicframework.com/docs/img/demos/card-media.png" />
@@ -43,5 +68,78 @@
       </ion-col>
    
     </ion-row>
+  </ion-grid>
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <ion-card>
+          <ion-card-header>
+            <ion-card-title>Card Title</ion-card-title>
+            <ion-card-subtitle>Card Subtitle</ion-card-subtitle>
+          </ion-card-header>
+        
+          <ion-card-content>
+            Here's a small text description for the card content. Nothing more, nothing less.
+          </ion-card-content>
+        </ion-card>
+
+        <ion-card>
+          <ion-card-header>
+            <ion-card-title>Card Title</ion-card-title>
+            <ion-card-subtitle>Card Subtitle</ion-card-subtitle>
+          </ion-card-header>
+        
+          <ion-card-content>
+            Here's a small text description for the card content. Nothing more, nothing less.
+          </ion-card-content>
+        </ion-card>
+        <ion-card>
+          <ion-card-header>
+            <ion-card-title>Card Title</ion-card-title>
+            <ion-card-subtitle>Card Subtitle</ion-card-subtitle>
+          </ion-card-header>
+        
+          <ion-card-content>
+            Here's a small text description for the card content. Nothing more, nothing less.
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+      <ion-col>
+        <ion-card>
+          <ion-card-header>
+            <ion-card-title>Card Title</ion-card-title>
+            <ion-card-subtitle>Card Subtitle</ion-card-subtitle>
+          </ion-card-header>
+        
+          <ion-card-content>
+            Here's a small text description for the card content. Nothing more, nothing less.
+          </ion-card-content>
+        </ion-card>
+        <ion-card>
+          <ion-card-header>
+            <ion-card-title>Card Title</ion-card-title>
+            <ion-card-subtitle>Card Subtitle</ion-card-subtitle>
+          </ion-card-header>
+        
+          <ion-card-content>
+            Here's a small text description for the card content. Nothing more, nothing less.
+          </ion-card-content>
+        </ion-card>
+        <ion-card>
+          <ion-card-header>
+            <ion-card-title>Card Title</ion-card-title>
+            <ion-card-subtitle>Card Subtitle</ion-card-subtitle>
+          </ion-card-header>
+        
+          <ion-card-content>
+            Here's a small text description for the card content. Nothing more, nothing less.
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+      <ion-col>
+
+      </ion-col>
+    </ion-row>
+  
   </ion-grid>
 </ion-content>
