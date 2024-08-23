@@ -1,3 +1,40 @@
 <ion-content [fullscreen]="true">
-
+  <ion-grid>
+    <p>Contracts</p>
+    <ion-row>
+      <ion-col>
+        <div class="upload-btn">
+          <ion-button size="small" shape="round">
+            <ion-icon slot="start" name="add-circle-outline"></ion-icon>
+           Upload documents
+          </ion-button>
+        </div>
+       
+      </ion-col>
+      <ion-col>
+        <div class="personal-details">
+          <ion-card>
+            <ion-card-content>Your Contact</ion-card-content>
+            <div class="img-container">
+              <img alt="profile-photo" src="assets/dummy-img.jpg" class="profile-photo" />
+            </div>
+            <ion-card-header>
+              <ion-card-subtitle>Phonix Insurance Broker GmbH</ion-card-subtitle>
+              <ion-card-subtitle> <ion-icon name="call-outline"></ion-icon> 0423114100</ion-card-subtitle>
+              <ion-card-subtitle><ion-icon name="mail-outline"></ion-icon> info&#64;phoenixmakler.de</ion-card-subtitle>
+            </ion-card-header>
+          
+            <img src="assets/phonix-logo.png">
+            <ion-card-content>
+              Phönix Insurance Broker GmbH<br>
+              Glockengiesserwall 2<br>
+              20095 Hamburg
+            </ion-card-content>
+          </ion-card>
+        </div>
+     
+      </ion-col>
+    </ion-row>
+  </ion-grid>
 </ion-content>
+
