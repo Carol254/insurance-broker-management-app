@@ -1,3 +1,18 @@
 .personal-details{
-    width: 50%;
+    width: 35%;
 }
+ion-item{
+    .item-detail-icon{
+        color: #84b2cb !important;
+    }
+}
+.img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .profile-photo {
+    width: 80%;
+  }
+  
