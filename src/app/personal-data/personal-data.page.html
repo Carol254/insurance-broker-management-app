@@ -1,13 +1,52 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>personal-data</ion-title>
-  </ion-toolbar>
-</ion-header>
-
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">personal-data</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <h5>My data</h5>
+
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <div style="display: flex; justify-content: space-between;">
+          <div>Leon Franken Born 5th ,1992</div>
+          <div style="display: flex; flex-direction: column;">
+            <ion-button size="small">Change my data</ion-button>
+            <ion-button size="small">Change Password</ion-button>
+            <ion-button size="small">Change Username</ion-button>
+          </div>
+         
+        </div>
+        <div class="details">
+          <div class="address">address</div>
+          <div class="contact">contact</div>
+        </div>
+
+        <ion-list>
+          <ion-item>Private contact details</ion-item>
+          <ion-item><ion-icon name="mail-outline"></ion-icon>leon.franken&#64;maxpool.de</ion-item>
+          <ion-item>Business contact details</ion-item>
+        </ion-list>
+
+        <div class="button-container">
+          <ion-button shape="round" class="contract-btn">Add Contract</ion-button>
+        </div>
+        
+      </ion-col>
+      <ion-col>
+        <ion-card>
+          <ion-card-content>Your Contact</ion-card-content>
+          <img alt="profile-photo" src="assets/dummy-img.jpg" />
+          <ion-card-header>
+            <ion-card-subtitle>Phonix Insurance Broker GmbH</ion-card-subtitle>
+            <ion-card-subtitle> <ion-icon name="call-outline"></ion-icon> 0423114100</ion-card-subtitle>
+            <ion-card-subtitle><ion-icon name="mail-outline"></ion-icon> info&#64;phoenixmakler.de</ion-card-subtitle>
+          </ion-card-header>
+        
+          <img src="assets/phonix-logo.png">
+          <ion-card-content>
+            Phönix Insurance Broker GmbH<br>
+            Glockengiesserwall 2<br>
+            20095 Hamburg
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
 </ion-content>
