@@ -120,3 +120,8 @@ ion-item.selected {
 ion-menu{
   width:200px;
 }
+
+ion-menu.md ion-list#inbox-list ion-list-header{
+  min-height: 0px !important; 
+  // padding-bottom: 10px;
+}
